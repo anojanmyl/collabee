@@ -22,9 +22,6 @@ services:
       - type: bind
         source: ./database
         target: /var/lib/mysql
-      - type: bind
-        source: ./certs
-        target: /etc/certs/
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: "collabee"
