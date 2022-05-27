@@ -1,0 +1,3 @@
+[submodule "2109-wns-remote1-greenteam-front"]
+	path = client
+	url = https://github.com/WildCodeSchool/2109-wns-remote1-greenteam-front.git
