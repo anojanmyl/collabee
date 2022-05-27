@@ -19,9 +19,7 @@ services:
     ports:
       - "3307:3306"
     volumes:
-      - type: bind
-        source: ./database
-        target: /var/lib/mysql
+      - ./database:/var/lib/mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: "collabee"
