@@ -1,6 +1,8 @@
-[submodule "2109-wns-remote1-greenteam-front"]
+[submodule "client"]
 	path = client
 	url = https://github.com/WildCodeSchool/2109-wns-remote1-greenteam-front.git
+	branch = docker
 [submodule "server"]
 	path = server
 	url = https://github.com/WildCodeSchool/2109-wns-remote1-greenteam-back.git
+	branch = docker
