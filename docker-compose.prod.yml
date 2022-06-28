@@ -10,6 +10,7 @@ services:
       - DB_PORT=3306
       - SECRET_TOKEN_USER=${SECRET_TOKEN_USER}
       - BACKEND_API_AUTHORIZATION=${BACKEND_API_AUTHORIZATION}
+      - NODE_ENV=production
   client:
     image: anojan1007/collabee-client:latest
     ports:
