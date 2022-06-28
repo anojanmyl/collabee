@@ -5,6 +5,11 @@ services:
     image: anojan1007/collabee-server:latest
     ports:
       - 4000:4000
+    environment:
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - SECRET_TOKEN_USER=${SECRET_TOKEN_USER}
+      - BACKEND_API_AUTHORIZATION=${BACKEND_API_AUTHORIZATION}
   client:
     image: anojan1007/collabee-client:latest
     ports:
