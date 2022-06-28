@@ -4,7 +4,7 @@ services:
   server:
     image: anojan1007/collabee-server:latest
     ports:
-      - 4000:4000
+      - 4000:5000
     environment:
       - DB_HOST=mysql
       - DB_PORT=3306
